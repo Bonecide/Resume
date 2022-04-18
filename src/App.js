@@ -1,24 +1,26 @@
 import logo from './logo.svg';
 import './App.css';
+import { Route, Routes } from 'react-router-dom';
+import PageLayout from './pages/PageLayout/PageLayout';
+import Experiance from './pages/Experiance/Experiance';
+import { IntlProvider } from 'react-intl';
+import { LOCALES } from "./i18n/locales";
+import { messages } from "./i18n/messages";
+import { useState } from 'react';
 
 function App() {
+  const [lang,setLang] = useState(LOCALES.ENGLISH)
+    const locale = lang
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+  <IntlProvider messages={messages[locale]}
+  locale = {locale}>
+    <Routes>
+        <Route element={<PageLayout/>}>
+          <Route index />
+          <Route path='experiance' element={<Experiance/>}/>
+        </Route>
+    </Routes>
+    </IntlProvider>
   );
 }
 
