@@ -1,0 +1,37 @@
+.aboutMe_container {
+     margin-top: 50px;
+         width: 100%;
+        display: flex;
+        justify-content: center;
+      
+}
+.aboutMe {
+    opacity: 0;
+    animation: ani 2s forwards;
+}
+@keyframes ani {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+  }
+.AboutMe_photo img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+.aboutMe_items {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+.AboutMe_Text  {
+    text-align: center;
+    h2   {
+    font-size: 62px;
+}
+    p {
+        font-size: 35px;
+    }
+}

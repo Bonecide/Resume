@@ -1,0 +1,13 @@
+.cards_container {
+    width: 80%;
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+.Card {
+    padding: 30px;
+    width: 40%;
+    border: 1px solid black;
+    border-radius: 20px;
+}
