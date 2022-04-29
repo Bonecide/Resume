@@ -1,12 +1,19 @@
 .header__container{
     padding-right: 0;
-   
+    position: sticky;
     display: flex;
     align-items: center;
     box-shadow: 0px 4px 10px 0px #0806061A;
+    select {
+        background: #0A0119;
+        color: white;
+        border-radius: 3px;
+        border: 1.5px solid;
+    }
 
 }
-.header__info__container{  
+.header__info__container{ 
+    position: sticky; 
     display: flex;
     height: 80px;
     width: 100%;
@@ -16,6 +23,7 @@
     text-transform: uppercase
 }
 .header__info{
+    position: sticky;
     text-decoration: none;
     font-size: large;
     color: #C3B9B5;

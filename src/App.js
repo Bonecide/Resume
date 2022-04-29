@@ -10,7 +10,7 @@ import { useState } from 'react';
 import AboutMe from './components/AboutMe/AboutMe';
 
 function App() {
-  const [lang,setLang] = useState(LOCALES.ENGLISH)
+  const [lang,setLang] = useState(LOCALES.RUSSIAN)
     const locale = lang
     console.log(lang)
   return (
@@ -18,7 +18,7 @@ function App() {
   locale = {locale}>
     <Routes>
         <Route element={<PageLayout lang={lang} setlang={setLang}/>}>
-          <Route index element={<AboutMe/>} />
+          <Route index element={<AboutMe value={lang}/>} />
           <Route path='experiance' element={<Experiance/>}/>
         </Route>
     </Routes>

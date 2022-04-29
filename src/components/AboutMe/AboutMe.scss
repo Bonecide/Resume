@@ -15,8 +15,8 @@
   }
 .AboutMe_photo img {
     border-radius: 50%;
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
     object-fit: cover;
 }
 .aboutMe_items {
@@ -24,14 +24,24 @@
     flex-direction: row-reverse;
     align-items: center;
     justify-content: center;
-    gap: 100px;
+    gap: 50px;
 }
 .AboutMe_Text  {
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     h2   {
     font-size: 62px;
+    color: white;
+    opacity: 0.9;
 }
     p {
         font-size: 35px;
+        color: white;
+        opacity: 0.9;
+    }
+    button {
+        margin-top: 20px;
     }
 }
