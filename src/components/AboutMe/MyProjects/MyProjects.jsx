@@ -1,4 +1,5 @@
 import { FormattedMessage } from 'react-intl';
+import OpacityButton from '../../Buttons/OpacityButton';
 import './MyProjects.scss'
 export default function MyProjects() {
     const MyProjects = [
@@ -21,7 +22,7 @@ export default function MyProjects() {
 
 
     return(
-        <div className='MyProjects__container'>
+        <div className='MyProjects__container' id='Projects'>
             <h2 className='MyProjects__HeadLine'><FormattedMessage id='MyProjects'/></h2>
             <div className='Projects'>
                 {MyProjects.map((Project)=> (
@@ -29,12 +30,12 @@ export default function MyProjects() {
                         <div className='overlay'>
                             <div className='Project_buttons'>
                             <div className='overlay'/>
-                            <a href={Project.SiteLink}  target='_blank' rel="noreferrer" >
+                            <OpacityButton link={Project.SiteLink} target='_blank' rel="noreferrer" >
                                  <p>View live site</p>
-                            </a>
-                            <a href={Project.GitHubLink} target='_blank' rel="noreferrer">
+                            </OpacityButton>
+                            <OpacityButton link={Project.GitHubLink} target='_blank' rel="noreferrer">
                                 <p>View github code</p>
-                            </a>
+                            </OpacityButton>
                             </div>
                         </div>
                     </div>

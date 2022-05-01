@@ -1,0 +1,18 @@
+.OpacityButton {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 16px;
+    border: 2px solid #F6F6FE;
+    background: transparent;
+    color: white;
+    border-radius: 8px;
+    
+    cursor: pointer;
+    &:hover {
+        background: white ;
+        color: black;
+    }
+    
+}

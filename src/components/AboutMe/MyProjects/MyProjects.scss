@@ -51,23 +51,8 @@
                 gap: 20px;
                 
                 a {
-                    display: flex;
-                    flex-direction: row;
-                    justify-content: center;
-                    align-items: center;
-                    padding: 8px 16px;
-                    border: 2px solid #F6F6FE;
-                    background: transparent;
-                    color: white;
-                    border-radius: 8px;
                     font-size: 20px;
                     font-weight: 500;
-                    cursor: pointer;
-                    &:hover {
-                        background: white ;
-                        color: black;
-                    }
-                    
                 }
                } 
         
