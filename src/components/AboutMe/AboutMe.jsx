@@ -2,6 +2,7 @@ import './AboutMe.scss'
 import AboutMeCards from './AboutMeCards/AboutMeCard'
 import { FormattedMessage } from 'react-intl';
 import ContactButton from '../ContactButton/ContactButton';
+import MyProjects from './MyProjects/MyProjects';
 
 export default function AboutMe({value}) {
 
@@ -20,6 +21,7 @@ export default function AboutMe({value}) {
                 </div>
         </div>
         <AboutMeCards value={value}/>
+        <MyProjects/>
     </div>
     )
 }

@@ -17,6 +17,7 @@ export const messages = {
         ITEducation : ' : React frontend in Bishkek',
         Stack: ' My Technology stack',
         EducationTitle : 'My education' ,
+        MyProjects: 'My Projects',
     },
     [LOCALES.RUSSIAN] : {
         Experiance : 'Опыт',
@@ -34,5 +35,6 @@ export const messages = {
         ITEducation : ' : React frontend в Бишкеке ',
         Stack: 'Мой стэк технологий',
         EducationTitle : 'Моё образование' ,
+        MyProjects: 'Мои Проекты',
     },
 }

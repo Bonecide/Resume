@@ -1,0 +1,88 @@
+.MyProjects__container {
+    width: 80%;
+    margin: 100px auto;
+    h2 {
+        color: white;
+        text-align: center;
+    }
+    .Projects {
+        width: 100%;
+        height: 100%;
+
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        .AKI_Project {
+                background-image: url('../../../../public/img/AKI.png');
+                background-size:100% 100% ;
+                margin-top: 80px;
+                border-radius: 20px;
+                width: 500px;
+                height: 340px;
+                &:hover {
+               
+                    .Project_buttons {
+                        opacity: 1;
+                    }
+                }
+            }
+        .Aibolit_Project {
+                background-image: url('../../../../public/img/Aibolit.png');
+                background-size:cover;
+                margin-top: 80px;
+                border-radius: 20px;
+                width: 500px;
+                height: 340px;
+                &:hover {
+                    .Project_buttons {
+                        opacity: 1;
+                    }
+                }
+        }
+               .Project_buttons {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                z-index: 2;
+                opacity: 0;
+                transition: all 0.5s;
+                // position: absolute;
+                gap: 20px;
+                
+                a {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    align-items: center;
+                    padding: 8px 16px;
+                    border: 2px solid #F6F6FE;
+                    background: transparent;
+                    color: white;
+                    border-radius: 8px;
+                    font-size: 20px;
+                    font-weight: 500;
+                    cursor: pointer;
+                    &:hover {
+                        background: white ;
+                        color: black;
+                    }
+                    
+                }
+               } 
+        
+
+    }
+    .overlay {
+        width: 100%;
+        height: 100%;
+        transition: all 0.3s;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: rgba(10,1,25,0.1);
+        &:hover {
+            background: rgba(10,1,25,0.7);
+        }
+    }
+}
