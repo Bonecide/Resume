@@ -18,6 +18,9 @@ export const messages = {
         Stack: ' My Technology stack',
         EducationTitle : 'My education' ,
         MyProjects: 'My Projects',
+        ViewSite : 'View live site',
+        ViewCode: 'View github code',
+
     },
     [LOCALES.RUSSIAN] : {
         Experiance : 'Опыт',
@@ -36,5 +39,7 @@ export const messages = {
         Stack: 'Мой стэк технологий',
         EducationTitle : 'Моё образование' ,
         MyProjects: 'Мои Проекты',
+        ViewSite : 'Открыть сайт',
+        ViewCode: 'Открыть GitHub',
     },
 }

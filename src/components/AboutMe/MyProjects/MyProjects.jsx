@@ -31,10 +31,10 @@ export default function MyProjects() {
                             <div className='Project_buttons'>
                             <div className='overlay'/>
                             <OpacityButton link={Project.SiteLink} target='_blank' rel="noreferrer" >
-                                 <p>View live site</p>
+                                 <p><FormattedMessage id='ViewSite'/></p>
                             </OpacityButton>
                             <OpacityButton link={Project.GitHubLink} target='_blank' rel="noreferrer">
-                                <p>View github code</p>
+                                <p><FormattedMessage id='ViewCode'/></p>
                             </OpacityButton>
                             </div>
                         </div>
