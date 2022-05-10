@@ -28,7 +28,9 @@
     &:hover {
         background-color: rgba($color: #FFFFFF, $alpha: 0.9);
     }
-    
+    @include mobile {
+        background-color: rgba($color: #FFFFFF, $alpha: 0.9);
+    }
     h3 {
         text-align: center;
         @include mobile {
