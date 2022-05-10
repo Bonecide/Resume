@@ -111,5 +111,9 @@
         margin-top: 15px;
         margin-left: 10px;
         flex-wrap: wrap;
+        width: 500px;
+        @include mobile {
+            width: 290px;
+        }
     }
 }

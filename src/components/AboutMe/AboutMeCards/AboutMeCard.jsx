@@ -54,21 +54,12 @@ export default function AboutMeCards({value}) {
             <div className='Card'>
                 <div>
                     <h3>
-                        <FormattedMessage id='EducationTitle'/>
+                        <FormattedMessage id='Stack'/>
                     </h3>
                 </div>
                     <ul>
-                    <li>
-                            <h4>
-                                <FormattedMessage id='EducationText'/>
-                            </h4>
-                        <FormattedMessage id='Education'/>
-                        </li>
-                        <li>
-                            <h4>
-                                <FormattedMessage id='ITEducationText'/>
-                            </h4>
-                             <a target='_blank' rel='noreferrer' href="https://www.codifylab.com/"> {value === 'RU-RU' ? 'Курсы' : null} Codify {value === 'en-US' ? 'Courses' : null}</a><FormattedMessage id='ITEducation'/>
+                        <li className='Stack'>
+                            <h4><FormattedMessage id='AboutStack'/></h4> <a href="#"><FormattedMessage id='Here'/></a>
                         </li>
                     </ul>
             </div>

@@ -38,7 +38,7 @@
     position: sticky;
     text-decoration: none;
     font-size: 15px;
-    color: #C3B9B5;
+    color: white;
     cursor: pointer;
     transition-duration: 0.3s; 
     @include mobile {
@@ -46,7 +46,7 @@
     }
 }
 .header__info:hover {
-    color: #59443F;
+    color: #6B96BC;
 }
 
 .OpenBurger {

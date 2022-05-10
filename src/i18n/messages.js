@@ -22,7 +22,8 @@ export const messages = {
         ViewCode: 'View github code',
         CommercialProject : 'Commercial project',
         EducationalProject : 'Educational project',
-
+        AboutStack : 'About my stack technologies you can learn',
+        Here: 'here'
     },
     [LOCALES.RUSSIAN] : {
         Experiance : 'Опыт',
@@ -45,5 +46,7 @@ export const messages = {
         ViewCode: 'Открыть GitHub',
         CommercialProject : 'Коммерческий проект',
         EducationalProject : 'Учебный проект',
+        AboutStack : 'О моём стэке технологий вы можете узнать',
+        Here: 'здесь'
     },
 }
