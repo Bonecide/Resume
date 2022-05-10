@@ -1,6 +1,10 @@
+@import '../../../global.scss';
 .MyProjects__container {
     width: 80%;
     margin: 100px auto;
+    @include mobile {
+        margin: 50px auto;
+    }
     h2 {
         color: white;
         text-align: center;
@@ -8,10 +12,13 @@
     .Projects {
         width: 100%;
         height: 100%;
-
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
+        @include mobile {
+                justify-content: center;
+            
+        }
         .AKI_Project {
                 background-image: url('../../../../public/img/AKI.png');
                 background-size:100% 100% ;
@@ -19,6 +26,12 @@
                 border-radius: 20px;
                 width: 500px;
                 height: 340px;
+                @include mobile {
+                    margin-top: 40px;
+                    width: 250px;
+                    height: 170px;
+                    background-size: cover;
+                }
                 &:hover {
                
                     .Project_buttons {
@@ -38,6 +51,11 @@
                         opacity: 1;
                     }
                 }
+                @include mobile {
+                    margin-top: 40px;
+                    width: 250px;
+                    height: 170px;
+                }
         }
                .Project_buttons {
                 display: flex;
@@ -53,9 +71,20 @@
                 a {
                     font-size: 20px;
                     font-weight: 500;
+                    @include mobile {
+                        font-size: 15px;
+                    }
                 }
                } 
-        
+        .Project_Type {
+            color: white;
+            font-weight: 500;
+            font-size: 20px;
+            margin-top: 15px;
+            @include mobile {
+                font-size: 15px;
+            }
+        }
 
     }
     .overlay {
@@ -69,5 +98,20 @@
         &:hover {
             background: rgba(10,1,25,0.7);
         }
+    }
+}
+.ProjectList {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    @include mobile {
+        align-items: center;
+    }
+    .Project_Use {
+        display: flex;
+        gap: 20px;
+        margin-top: 15px;
+        margin-left: 10px;
+        flex-wrap: wrap;
     }
 }

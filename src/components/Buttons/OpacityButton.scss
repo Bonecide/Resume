@@ -1,3 +1,4 @@
+@import '../../global.scss';
 .OpacityButton {
     display: flex;
     flex-direction: row;
@@ -8,11 +9,12 @@
     background: transparent;
     color: white;
     border-radius: 8px;
-    
     cursor: pointer;
     &:hover {
         background: white ;
         color: black;
     }
-    
+    @include mobile {
+      padding: 4px 8px;  
+    }
 }

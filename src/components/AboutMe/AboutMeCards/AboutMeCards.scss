@@ -1,9 +1,20 @@
+@import '../../../global.scss';
 .cards_container {
     width: 80%;
     margin: 100px auto 50px auto;
     display: flex;
     justify-content: space-between;
-
+    a {
+        color: #4682B4;
+        
+    }
+    @include mobile {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 40px auto 20px auto;
+        gap: 20px;
+    }
 }
 .Card {
     padding: 30px;
@@ -20,6 +31,9 @@
     
     h3 {
         text-align: center;
+        @include mobile {
+            font-size: medium;
+        }
     }
     ul{
     display: flex;
@@ -28,12 +42,16 @@
     justify-content: center;
     h4 {
         display: inline-block;
-        color: blue;
+        color: rgb(0, 82, 144);
+        font-size: medium;
     }
         list-style-type:none ;
         li {
             margin-top: 10px;
         }
+    }
+    @include mobile {
+        width: 100%;
     }
 }
 .LastCard__container {
@@ -41,9 +59,11 @@
     margin: 50px auto;
     display: flex;
     justify-content: center;
-    div {
+    a {
+        color: #4682B4;
         
-        // margin: 100px auto;
-        // min-height: 161px;
     }
+   @include mobile {
+       margin: 0 auto;
+   }
 }

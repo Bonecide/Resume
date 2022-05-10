@@ -3,7 +3,7 @@ export default function OpacityButton({link,children,textSize,textWeight,...prop
    
     return(
         <a className="OpacityButton"  href={link}  {...props}>
-            {children}
+           {children}
         </a>
     )
 }

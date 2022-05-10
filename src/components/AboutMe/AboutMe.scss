@@ -1,3 +1,4 @@
+@import '../../global.scss';
 .aboutMe_container {
      margin-top: 50px;
          width: 100%;
@@ -18,6 +19,10 @@
     width: 250px;
     height: 250px;
     object-fit: cover;
+    @include mobile {
+        width: 150px;
+        height: 150px;
+    }
 }
 .aboutMe_items {
     display: flex;
@@ -25,6 +30,9 @@
     align-items: center;
     justify-content: center;
     gap: 50px;
+    @include mobile {
+        gap: 0px;
+    }
 }
 .AboutMe_Text  {
     text-align: center;
@@ -35,13 +43,31 @@
     font-size: 62px;
     color: white;
     opacity: 0.9;
+    @include mobile {
+        font-size: 22px;
+    }
 }
     p {
         font-size: 35px;
         color: white;
         opacity: 0.9;
+        @include mobile {
+            font-size: 18px;
+        }
     }
     button {
         margin-top: 20px;
+        @include mobile {
+            margin-top: 10px;
+            // padding: 4px 8px;
+        }
+        a {
+           @include mobile {
+               font-size: 17px;
+           }
+        }
+    }
+    .AboutMe_React {
+    
     }
 }

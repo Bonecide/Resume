@@ -1,5 +1,5 @@
 
-import './App.css';
+import './App.scss';
 import { Route, Routes } from 'react-router-dom';
 import PageLayout from './pages/PageLayout/PageLayout';
 import Experiance from './pages/Experiance/Experiance';
@@ -12,7 +12,6 @@ import AboutMe from './components/AboutMe/AboutMe';
 function App() {
   const [lang,setLang] = useState(LOCALES.RUSSIAN)
     const locale = lang
-    console.log(lang)
   return (
   <IntlProvider messages={messages[locale]}
   locale = {locale}>

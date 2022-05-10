@@ -12,11 +12,11 @@ export default function AboutMe({value}) {
                 <div className="aboutMe_items">
                     <div className="AboutMe_Text">
                         <h2><FormattedMessage id='MyName'/></h2>
-                        <p> <span> <p style={{color : '#9BC7DF'}}>React</p></span> Frontend developer</p>
+                        <p> <span className='AboutMe_React' style={{color : '#9BC7DF'}}> React</span> <br /> Frontend developer</p>
                         <ContactButton><a style={{color: 'black'}} href="#Footer">Contact Me</a></ContactButton>
                     </div>
                     <div className="AboutMe_photo">
-                        <img src={'img/myPhoto.png'} alt="" />
+                        <img src={'img/myPhoto.png'} alt="asd" />
                     </div>
                 </div>
         </div>
