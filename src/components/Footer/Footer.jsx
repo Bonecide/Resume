@@ -14,16 +14,17 @@ export default function Footer() {
                     <div className='footer_info_container'>
                         <PhoneIphoneIcon className='icon'/>
                         <WhatsAppIcon className='icon'/>
-                        <TelegramIcon className='icon'/>
+                        <a href="https://t.me/Bonecide" target='_blank' rel="noreferrer"><TelegramIcon className='icon'/></a>
                         <p className='footer_text'>+996 550 326 376</p>
                     </div>
                     <div className='footer_info_container'>
-                            <EmailIcon className='icon'/>
+                    <EmailIcon className='icon'/>
                             <p className='footer_text'>marselkasymov23@gmail.com</p>
                     </div>
                     <div className='footer_info_container'>
-                        <InstagramIcon className='icon'/>
+                    <a href="https://www.instagram.com/mar_kasr/" target='_blank' rel="noreferrer"><InstagramIcon className='icon'/></a>
                         <p className='footer_text'>@mar_kasr</p>
+                        
                     </div>
                 </div>
                 <div className='Footer_aboutSite'>
