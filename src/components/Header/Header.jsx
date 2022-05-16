@@ -10,18 +10,9 @@ const FakeDatasHeader = [
     label : <FormattedMessage id="AboutMe"/> ,
      link : '/'
     },
+   
     {
      id : 2,
-     label : <FormattedMessage id="Experiance"/> ,
-     link : '/experiance'
-    },
-    {
-     id : 3,
-     label : <FormattedMessage id="Experiance"/> ,
-     link : '/experiance'
-    },
-    {
-     id : 4,
      label : <FormattedMessage id="Skills"/> ,
      link : '#'
     },
