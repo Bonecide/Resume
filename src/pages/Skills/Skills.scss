@@ -25,17 +25,17 @@
         width: 150px !important;
         height: 150px !important;
     }
-    .css-ifw2ql-MuiCircularProgress-root{
-       animation:animation-61bdi0 10s linear infinite;
-    }
+    // .css-ifw2ql-MuiCircularProgress-root{
+    //    animation:animation-61bdi0 10s linear infinite !important;
+    // }
     .css-176wh8e-MuiCircularProgress-circle{
         width: 10px !important;
         height: 1px !important;
-        stroke-width: 1px;
-        animation: animation-1p2h4ri 6s ease-in-out infinite;
+        stroke-width: 1px !important;
+        animation: animation-1p2h4ri 6s ease-in-out infinite !important;
     }
     .MuiCircularProgress-indeterminate {
-        animation: animation-61bdi0 6s linear infinite;
+        animation: animation-61bdi0 6s linear infinite !important;
     }
     .Circle_Text {
         color: white;
