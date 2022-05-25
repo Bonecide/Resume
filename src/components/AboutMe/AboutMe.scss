@@ -23,6 +23,10 @@
         width: 150px;
         height: 150px;
     }
+    @include tablet {
+        width: 200px;
+        height: 200px;
+    }
 }
 .aboutMe_items {
     display: flex;
@@ -32,6 +36,9 @@
     gap: 50px;
     @include mobile {
         gap: 0px;
+    }
+    @include tablet {
+        gap: 0;
     }
 }
 .AboutMe_Text  {
@@ -46,6 +53,9 @@
     @include mobile {
         font-size: 22px;
     }
+    @include tablet {
+        font-size: 40px;
+    }
 }
     p {
         font-size: 35px;
@@ -53,6 +63,9 @@
         opacity: 0.9;
         @include mobile {
             font-size: 18px;
+        }
+        @include tablet {
+            font-size: 20px;
         }
     }
     button {
@@ -64,6 +77,9 @@
         a {
            @include mobile {
                font-size: 17px;
+           }
+           @include tablet {
+               font-size: 21px ;
            }
         }
     }

@@ -14,7 +14,7 @@ const FakeDatasHeader = [
     {
      id : 2,
      label : <FormattedMessage id="Skills"/> ,
-     link : '#'
+     link : '/skills'
     },
 
 ]

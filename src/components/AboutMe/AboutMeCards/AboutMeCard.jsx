@@ -1,5 +1,6 @@
 import './AboutMeCards.scss'
 import { FormattedMessage } from 'react-intl';
+import { Link } from 'react-router-dom';
 
 
 export default function AboutMeCards({value}) {
@@ -59,7 +60,20 @@ export default function AboutMeCards({value}) {
                 </div>
                     <ul>
                         <li className='Stack'>
-                            <h4><FormattedMessage id='AboutStack'/></h4> <a href="#"><FormattedMessage id='Here'/></a>
+                            <h4>
+                            <FormattedMessage id='HardSkills'/>
+                            </h4>
+                              <Link to="/skills">
+                                  <FormattedMessage id='HereHard'/>
+                              </Link>
+                        </li>
+                        <li className='Stack'>
+                            <h4>
+                            <FormattedMessage id='SoftSkills'/>
+                            </h4>
+                              <Link to="/skills">
+                                  <FormattedMessage id='HereSoft'/>
+                              </Link>
                         </li>
                     </ul>
             </div>

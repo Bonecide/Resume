@@ -22,8 +22,10 @@ export const messages = {
         ViewCode: 'View github code',
         CommercialProject : 'Commercial project',
         EducationalProject : 'Educational project',
-        AboutStack : 'About my stack technologies you can learn',
-        Here: 'here'
+        HardSkills: 'Hard Skills :',
+        SoftSkills : 'Soft Skills :',
+        HereHard: ' About my stack technologies you can learn here',
+        HereSoft: ' About my qualities you can learn here',
     },
     [LOCALES.RUSSIAN] : {
         Experiance : 'Опыт',
@@ -46,7 +48,9 @@ export const messages = {
         ViewCode: 'Открыть GitHub',
         CommercialProject : 'Коммерческий проект',
         EducationalProject : 'Учебный проект',
-        AboutStack : 'О моём стэке технологий вы можете узнать',
-        Here: 'здесь'
+        HardSkills: 'Хард Скиллы : ',
+        SoftSkills : 'Софт Скиллы : ',
+        HereHard: ' О моём стэке технлогий вы можете узнать здесь',
+        HereSoft: ' О моих качествах вы можете узнать кликнув сюда',
     },
 }

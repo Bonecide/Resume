@@ -39,7 +39,6 @@ export default function MyProjects() {
                         <div className={Project.className}>
                             <div className='overlay'>
                                 <div className='Project_buttons'>
-                                <div className='overlay'/>
                                 <OpacityButton link={Project.SiteLink} target='_blank' rel="noreferrer" >
                                     <p><FormattedMessage id='ViewSite'/></p>
                                 </OpacityButton>

@@ -1,0 +1,61 @@
+@import '../../global.scss';
+.Skills_container {
+    width: 80%;
+    margin: 50px auto;
+    opacity: 0;
+    animation: ani 2s forwards;
+    h2 {
+        color: white;
+        text-align: center;
+    }
+    .Skills_text {
+        color: white;
+        &_container {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+    .MuiCircularProgress-root {
+        width: 150px !important;
+        height: 150px !important;
+    }
+    .css-ifw2ql-MuiCircularProgress-root{
+       animation:animation-61bdi0 10s linear infinite;
+    }
+    .css-176wh8e-MuiCircularProgress-circle{
+        width: 10px !important;
+        height: 1px !important;
+        stroke-width: 1px;
+        animation: animation-1p2h4ri 6s ease-in-out infinite;
+    }
+    .MuiCircularProgress-indeterminate {
+        animation: animation-61bdi0 6s linear infinite;
+    }
+    .Circle_Text {
+        color: white;
+    }
+    .Secondary_Circle {
+        width: 150px !important;
+        height: 150px !important;
+    }
+    .Stack_Technologies_container {
+        margin-top: 50px;
+        display: flex;
+        gap: 100px;
+        flex-wrap: wrap;
+        @include mobile {
+            gap: 50px;
+            justify-content: center;
+        }
+        @include tablet {
+            gap: 75px;
+            justify-content: center;
+        }
+    }
+}
