@@ -67,14 +67,14 @@ export default function AboutMeCards({value}) {
                                   <FormattedMessage id='HereHard'/>
                               </Link>
                         </li>
-                        <li className='Stack'>
+                        {/* <li className='Stack'>
                             <h4>
                             <FormattedMessage id='SoftSkills'/>
                             </h4>
                               <Link to="/skills">
                                   <FormattedMessage id='HereSoft'/>
                               </Link>
-                        </li>
+                        </li> */}
                     </ul>
             </div>
         </div>
