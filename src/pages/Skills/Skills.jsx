@@ -26,7 +26,7 @@ export default function Skills() {
         },
         {
             Skill: 'SCSS',
-            progress : 50,
+            progress : 60,
             isLearned : true,
         },
         {
@@ -46,7 +46,7 @@ export default function Skills() {
         },
         {
             Skill: 'Redux Toolkit',
-            progress : 30,
+            progress : 60,
             isLearned : true,
         },
         {
