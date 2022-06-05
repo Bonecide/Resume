@@ -61,6 +61,24 @@
                     height: 210px;
                 }
         }
+        .Library {
+            background-image: url('../../../../public/img/Library.png');
+            background-size:cover;
+            margin-top: 80px;
+            border-radius: 20px;
+            width: 500px;
+            height: 340px;
+            &:hover {
+                .Project_buttons {
+                    opacity: 1;
+                }
+            }
+                @include mobile {
+                    margin-top: 40px;
+                    width: 290px;
+                    height: 210px;
+                }
+        }
                .Project_buttons {
                 display: flex;
                 flex-direction: column;
