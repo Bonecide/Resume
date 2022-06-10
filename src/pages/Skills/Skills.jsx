@@ -50,6 +50,11 @@ export default function Skills() {
             isLearned : true,
         },
         {
+            Skill: 'NextJs',
+            progress : 5,
+            isLearned : true,
+        },
+        {
             Skill: 'TypeScript',
             progress : 10,
             isLearned : true,
