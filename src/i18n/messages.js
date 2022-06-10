@@ -26,6 +26,9 @@ export const messages = {
         SoftSkills : 'Soft Skills :',
         HereHard: ' About my stack technologies you can learn here',
         HereSoft: ' About my qualities you can learn here',
+        WorkExperience: 'Work Experience',
+        ExperianceInWork : 'There is experience in the development of Frontend parts on projects in the Codify company. Below you can see the projects in which I was involved in the front',
+
     },
     [LOCALES.RUSSIAN] : {
         Experiance : 'Опыт',
@@ -52,5 +55,8 @@ export const messages = {
         SoftSkills : 'Софт Скиллы : ',
         HereHard: ' О моём стэке технлогий вы можете узнать здесь',
         HereSoft: ' О моих качествах вы можете узнать кликнув сюда',
-    },
+        WorkExperience : 'Опыт Работы',
+        ExperianceInWork : 'Имеется опыт в разработке Фронтенд части на проектах в компании кодифай. Ниже вы можете ознакомиться с проектами,в которых я занимался фронтом',
+
+    }
 }

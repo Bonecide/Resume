@@ -4,6 +4,8 @@ import EmailIcon from '@mui/icons-material/Email';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import TelegramIcon from '@mui/icons-material/Telegram';
 import InstagramIcon from '@mui/icons-material/Instagram';
+import GitHubIcon from '@mui/icons-material/GitHub';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
 export default function Footer() {
 
 
@@ -25,6 +27,10 @@ export default function Footer() {
                     <a href="https://www.instagram.com/mar_kasr/" target='_blank' rel="noreferrer"><InstagramIcon className='icon'/></a>
                         <p className='footer_text'>@mar_kasr</p>
                         
+                    </div>
+                    <div className='footer_info_container'>
+                        <a href="https://github.com/Bonecide" target='_blank' rel="noreferrer"><GitHubIcon className='icon'/></a>
+                        <a href="https://www.linkedin.com/in/марсель-касымов-1a0a9a234/" target='_blank' rel="noreferrer"><LinkedInIcon className='icon'/></a>
                     </div>
                 </div>
                 <div className='Footer_aboutSite'>

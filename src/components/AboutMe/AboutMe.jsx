@@ -3,6 +3,7 @@ import AboutMeCards from './AboutMeCards/AboutMeCard'
 import { FormattedMessage } from 'react-intl';
 import ContactButton from '../ContactButton/ContactButton';
 import MyProjects from './MyProjects/MyProjects';
+import WorkExperience from './WorkExperience/WorkExperience';
 
 export default function AboutMe({value}) {
 
@@ -21,6 +22,7 @@ export default function AboutMe({value}) {
                 </div>
         </div>
         <AboutMeCards value={value}/>
+        <WorkExperience/>
         <MyProjects/>
     </div>
     )

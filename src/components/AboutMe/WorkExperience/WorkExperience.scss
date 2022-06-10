@@ -1,0 +1,16 @@
+.WorkExperience {
+    margin-top: 50px;
+    &_container {
+        width: 80%;
+        margin: 0 auto;
+        h2 {
+            color: white;
+            text-align: center;
+        }
+        p {
+            color: white;
+            margin-top: 50px;
+            font-size: 20px;
+        }
+    }
+}
