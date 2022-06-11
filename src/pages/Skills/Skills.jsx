@@ -11,37 +11,37 @@ export default function Skills() {
     const SkillsData = [
         {
             Skill: 'Html',
-            progress : 70,
+            progress : 90,
             isLearned : true,
         },
         {
             Skill: 'CSS',
-            progress : 50,
+            progress : 90,
             isLearned : true,
         },
         {
             Skill: 'Tailwind',
-            progress : 20,
+            progress : 50,
             isLearned : true,
         },
         {
             Skill: 'SCSS',
-            progress : 60,
+            progress : 90,
             isLearned : true,
         },
         {
             Skill: 'JavaScript',
-            progress : 40,
+            progress : 50,
             isLearned : true,
         },
         {
             Skill: 'EcmaScript 6',
-            progress : 40,
+            progress : 50,
             isLearned : true,
         },
         {
             Skill: 'React',
-            progress : 70,
+            progress : 80,
             isLearned : true,
         },
         {
