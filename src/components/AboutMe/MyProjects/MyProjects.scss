@@ -43,6 +43,27 @@
                     }
                 }
             }
+            .Evocom_Project {
+                background-image: url('../../../../public/img/EvoCom.png');
+                background-size:cover ;
+                margin-top: 80px;
+                border-radius: 20px;
+                width: 500px;
+                height: 340px;
+                @include mobile {
+                    margin-top: 40px;
+                    width: 290px;
+                    height: 210px;
+                    background-size: cover;
+                }
+                &:hover {
+               
+                    .Project_buttons {
+                        opacity: 1;
+                    }
+                }
+            }
+            
         .Aibolit_Project {
                 background-image: url('../../../../public/img/Aibolit.png');
                 background-size:cover;
