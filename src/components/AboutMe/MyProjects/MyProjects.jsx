@@ -34,7 +34,7 @@ export default function MyProjects() {
             className : 'Evocom_Project',
             Type : <FormattedMessage id='CommercialProject'/>,
             Used : [
-                'SCSS' , 'React' , 'JavaScript' 
+                'SCSS' , 'React' , 'JavaScript' , 'Adaptive'
             ]
         },
         // {
