@@ -1,8 +1,15 @@
+@import '../../../global.scss';
 .WorkExperience {
     margin-top: 50px;
     &_container {
         width: 45%;
         margin: 0 auto;
+        @include mobile {
+            width: 80%;
+        }
+        @include tablet {
+            width: 60%;
+        }
         h2 {
             color: white;
             text-align: center;
