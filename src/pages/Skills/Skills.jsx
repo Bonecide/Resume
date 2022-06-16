@@ -55,6 +55,11 @@ export default function Skills() {
             isLearned : true,
         },
         {
+            Skill: 'React Native',
+            progress : 10,
+            isLearned : true,
+        },
+        {
             Skill: 'TypeScript',
             progress : 10,
             isLearned : true,
@@ -64,6 +69,7 @@ export default function Skills() {
             progress : 80,
             isLearned : true,
         },
+        
         
     ]
     return(
