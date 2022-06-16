@@ -51,7 +51,7 @@ export default function Skills() {
         },
         {
             Skill: 'NextJs',
-            progress : 15,
+            progress : 40,
             isLearned : true,
         },
         {
