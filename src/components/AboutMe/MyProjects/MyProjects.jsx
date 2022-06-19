@@ -26,17 +26,17 @@ export default function MyProjects() {
                 'Html' , 'Module CSS' , 'React' , 'JavaScript' 
             ]
         },
-        // {
-        //     id : 3,
-        //     img : 'img/EvoCom.png',
-        //     SiteLink: 'http://167.99.35.71/',
-        //     GitHubLink: 'https://github.com/Bonecide/EvoCom',
-        //     className : 'Evocom_Project',
-        //     Type : <FormattedMessage id='CommercialProject'/>,
-        //     Used : [
-        //         'SCSS' , 'React' , 'JavaScript' , 'Adaptive'
-        //     ]
-        // },
+        {
+            id : 3,
+            img : 'img/EvoCom.png',
+            SiteLink: 'http://evocomservice.com/',
+            GitHubLink: 'https://github.com/Bonecide/EvoCom',
+            className : 'Evocom_Project',
+            Type : <FormattedMessage id='CommercialProject'/>,
+            Used : [
+                'SCSS' , 'React' , 'JavaScript' , 'Adaptive'
+            ]
+        },
         {
             id : 4,
             img : 'https://prnt.sc/Cr1HKXcVwrjl',
